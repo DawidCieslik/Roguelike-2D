@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Character_selection" Collapsed="true">
+    <Position X="4" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BACAAAAAAAAAAAAAQAQCAAAAAAABAAAAABAAAAAAKAA=</HashCode>
+      <FileName>Character_selection.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game" Collapsed="true">
+    <Position X="4" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FeQgAHAAAAUYAABNZCACJAAAEDkMgAABAqODERBAIBA=</HashCode>
+      <FileName>Game.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Level" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAhAABIBAEAgQAQAAAAAgAEQAACAAAAAAAABAAIAA=</HashCode>
+      <FileName>Level.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Menu" Collapsed="true">
+    <Position X="2.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AECAAAAQAAAAEAAAAAACAAAAAAAYAAAIQAEABAAAMAI=</HashCode>
+      <FileName>Menu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Objects" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAgAAIAAABIABAAAAACAA=</HashCode>
+      <FileName>Objects.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Resources" Collapsed="true">
+    <Position X="4" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABCAAAIAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Resources.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Unit" Collapsed="true">
+    <Position X="7.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAIoRkMEAKAAgLIApIIAAABASGI5EXIGygxoAEYolAA=</HashCode>
+      <FileName>Unit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player" Collapsed="true">
+    <Position X="6.75" Y="2.25" Width="1.5" />
+    <InheritanceLine Type="Unit" ManuallyRouted="true">
+      <Path>
+        <Point X="8.5" Y="1.691" />
+        <Point X="8.5" Y="2.031" />
+        <Point X="7.5" Y="2.031" />
+        <Point X="7.5" Y="2.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAZBspiVIAkgwJAAEAAIAA4AAWEAEwgDWBJIQwjAAuI=</HashCode>
+      <FileName>Player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Skeleton" Collapsed="true">
+    <Position X="6" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAACAAAAABAAAAAAAAAAAAAAAACCAAAAAAAgAAA=</HashCode>
+      <FileName>Skeleton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Skeleton_Archer" Collapsed="true">
+    <Position X="9.5" Y="3.5" Width="1.5" />
+    <InheritanceLine Type="Unit" ManuallyRouted="true">
+      <Path>
+        <Point X="8.5" Y="1.691" />
+        <Point X="8.5" Y="3.335" />
+        <Point X="10.25" Y="3.335" />
+        <Point X="10.25" Y="3.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAGQAAAABAAAAAAAAAAAAAAAAACAAAAAAAgAAA=</HashCode>
+      <FileName>Skeleton_Archer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zombie" Collapsed="true">
+    <Position X="7.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACEAAAABAAAAAAAAAAAAAAAACCAAAAAAAgAAA=</HashCode>
+      <FileName>Zombie.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tile" Collapsed="true">
+    <Position X="13" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIgAgAAAAAAAKAAAIIABAAAAFABAAAAAABgAIIIAQA=</HashCode>
+      <FileName>Tile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Floor" Collapsed="true">
+    <Position X="11.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAgAAAAAAAIgAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Floor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Wall" Collapsed="true">
+    <Position X="14.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAgAAAAAAAIAAAAAAAAAAAEAgAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Wall.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pickup" Collapsed="true">
+    <Position X="12.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAIIAQCAAIAABAAAAAABgAAIIAAA=</HashCode>
+      <FileName>Pickup.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coins" Collapsed="true">
+    <Position X="11" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAACAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Coins.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Diamond" Collapsed="true">
+    <Position X="14.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAiAAAAAAAAAAAAA=</HashCode>
+      <FileName>Diamond.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projectile" Collapsed="true">
+    <Position X="2.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAEABIAEAAwjAQAAAAQAAAAAIBQQAAEAQACCJAIAA=</HashCode>
+      <FileName>Projectile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Leaderboard" Collapsed="true">
+    <Position X="2.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgABAEAAAICgAAAAAAAAAAAECAAAAAAAAAA=</HashCode>
+      <FileName>Leaderboard.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AimedShot" Collapsed="true">
+    <Position X="0.75" Y="5.25" Width="1.5" />
+    <InheritanceLine Type="Projectile" ManuallyRouted="true">
+      <Path>
+        <Point X="3.25" Y="4.812" />
+        <Point X="3.25" Y="5.083" />
+        <Point X="1.5" Y="5.083" />
+        <Point X="1.5" Y="5.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>AimedShot.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fireball" Collapsed="true">
+    <Position X="0.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Fireball.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Flurry" Collapsed="true">
+    <Position X="4.25" Y="5.25" Width="1.5" />
+    <InheritanceLine Type="Projectile" ManuallyRouted="true">
+      <Path>
+        <Point X="3.25" Y="4.812" />
+        <Point X="3.25" Y="5.083" />
+        <Point X="5" Y="5.083" />
+        <Point X="5" Y="5.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Flurry.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lightning" Collapsed="true">
+    <Position X="4.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lightning.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Stun" Collapsed="true">
+    <Position X="2.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Stun.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Arrow" Collapsed="true">
+    <Position X="0.75" Y="7.25" Width="1.5" />
+    <InheritanceLine Type="Projectile" ManuallyRouted="true">
+      <Path>
+        <Point X="3.25" Y="4.812" />
+        <Point X="3.25" Y="7.085" />
+        <Point X="1.5" Y="7.085" />
+        <Point X="1.5" Y="7.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Arrow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Melee" Collapsed="true">
+    <Position X="4.25" Y="7.25" Width="1.5" />
+    <InheritanceLine Type="Projectile" ManuallyRouted="true">
+      <Path>
+        <Point X="3.25" Y="4.812" />
+        <Point X="3.25" Y="7.075" />
+        <Point X="5" Y="7.075" />
+        <Point X="5" Y="7.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Melee.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Potion" Collapsed="true">
+    <Position X="12.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAIAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Potion.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Stairs" Collapsed="true">
+    <Position X="13" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAgAAAAAAAIAAAAAEAAAAAEAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Stairs.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="direction" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAEAAAAAAAIAAAAAAAAAgAAgAA=</HashCode>
+      <FileName>Enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="state_of_game" Collapsed="true">
+    <Position X="2.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAgAAAAAEAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="menu_options" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAACAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="character_class" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAgA=</HashCode>
+      <FileName>Enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="pause_options" Collapsed="true">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
